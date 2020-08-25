@@ -1,5 +1,5 @@
 name = input("Enter your name: ")
-print("Hello, " + name + "!")
+print(f"Hello, {name}!")
 age =  input("Ener your age: ")
 age = int(age)
-print("You will be " + str(age + 1) +  " next year.")
+print(f"You will be {age + 1} next year.")
